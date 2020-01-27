@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat
+  center center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333333;
+}
+
+nav{
+  background: #eff4f7;
+  margin: 40px 40px 75px 40px;
+  position: relative;
+  z-index: 5;
+  height: 80px;
+}
+
+ul{
+  padding: 20px 20px 0 20px;
+  float: right;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.btn-nav{
+  text-decoration: none;
+  color: #a4a8a9;
+  padding: 15px;
+}
+
+li:hover{
+  cursor: pointer;
+  border-bottom: 4px solid;
+  border-bottom-color: #70e9ff;
+  color: #333333;
+}
+
+.btn-nav:hover{
+  color: #333333;
+}
+
+
+.logo{
+  position: absolute;
+  z-index: 0;
+  top: 20px;
+  left: 990px;
+  background: #ea3d51;
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.brand{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 10px;
+  color: #ffffff;
+  margin-top: 72px;
+}
+
+main{
+  background: #cbd0d9;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section-main{
+  margin: 0 auto;
+}
+
+.book-title{
+  position: relative;
+  z-index: 10;
+  color: #121f25;
+  font-size: 54px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.book-genre{
+  position: relative;
+  z-index: 3;
+  top: -80px;
+  left: 680px;
+  color: #6dffb8;
+  font-size: 120px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.section-donate{
+  position: relative;
+  z-index: 8;
+  margin: 0 auto;
+  color: #ffffff;
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat
+  center center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+.stars{
+  font-size: 25px;
+  margin: 10px;
+}
+
+.paragraph-one::before,.paragraph-one::after{
+  content: '"';
+  color: #af213d;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.btn-donate{
+  background: none;
+  border: 3px solid #70ecff;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 10px 0px;
+  
+  text-align: center;
+}
+
+.btn-donate-one{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 13px 25px;
+  margin: 0;
+}
+
+.btn-donate:hover{
+  background: #70ecff;
+  border-color: #70ecff;
+  color: #348098;
+  cursor: pointer;
+}
+
+.btn-donate-one:hover{
+  color: #333333;
+  
+}
+
+.section-chapter{
+  position: relative;
+  z-index: 4;
+  top: -250px;
+  background: #ffffff;
+  margin: 50px;
+  padding: 250px 35px 35px 35px;
+}
+
+.heading-chapter{
+  color: #46ee97;
+  font-size: 42px;
+  text-transform: capitalize;
+}
+
+.paragraph-two{
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.btn-read-book{
+  background: none;
+  border: none;
+  
+}
+
+.btn-read{
+  background: none;
+  border: 3px solid #628291;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #333333;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.btn-read:hover{
+  cursor: pointer;
+  background: #628291;
+  color: #6dffb8;
+  transition: 0.5s;
+}
